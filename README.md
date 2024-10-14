@@ -34,12 +34,12 @@ pip install -r requirements.txt
 4. The training commands are placed in the './src/demo.sh' file.
 Close comments in 'demo.sh' and run 'demo.sh' to execute the corresponding command of training. Such as:
 ```
-python main.py --model FIAP_6BLOCK --save ./train/FIAP-S_Div2k_x2 --scale 2 --lr 6e-4 --batch_size 32 --patch_size 128 --n_feats 32 --decay 200-400-600-800 --data_test Set5 --reset --epoch=1000
+python main.py --model XXX 
 ```
-4. More training commond can be found in `./src/demo.sh` file, and the training results will be sorted in `./experiment/train/`
+4. The training results will be sorted in `./experiment/train/`
 
 ## SR images visualization
-1. We provided visualization of SR images for two versions of the model ( FIAP and FIAP-L) from [Google Drive](https://drive.google.com/drive/folders/1xiPOE22AExEcIe5-er3clOYFHCVCJo6F?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/1vEOJaLGScgRGaIOeFI3q8w) (code：s8eg)
+1. We provided visualization of SR images for SCAN from [Google Drive](https://drive.google.com/XXX) or [Baidu Drive](https://pan.baidu.com/XXX) (code：s8eg)
 
 ## Contact
 Email: fjs1867@mnnu.edu.cn
